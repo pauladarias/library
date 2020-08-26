@@ -27,4 +27,6 @@ function displayBooks(books) {
   </div>`;
 }
 
-getBooks().then(displayBooks);
+getBooks()
+  .then(displayBooks)
+  .catch((e) => console.log(e));
