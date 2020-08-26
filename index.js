@@ -16,7 +16,7 @@ getBooks().then((books) => {
 
   document.body.innerHTML = `<div class="my-book">
       <div class="my-book-cover">${sampleBook.title}</div>
-      <div class="my-book-spine">Spine</div>
-      <div class="my-book-footer">Footer</div>
+      <div class="my-book-spine"></div>
+      <div class="my-book-footer"></div>
   </div>`;
 });
